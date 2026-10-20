@@ -144,22 +144,27 @@
             background: #f0fdf4;
         }
 
-        .avatar {
-            width: 70px;
-            height: 70px;
-            background: #e6f9f0;
-            color: #11998e;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.8rem;
+        /* Styling Foto Profil */
+        .photo-container {
+            width: 90px;
+            height: 90px;
             margin: 0 auto 20px auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #38ef7d;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        .card.ketua-card .avatar {
-            background: #11998e;
-            color: white;
+        .card.ketua-card .photo-container {
+            border: 3px solid #11998e;
+            width: 100px;
+            height: 100px;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .card h3 {
@@ -228,42 +233,54 @@
         <div class="grid-members">
             <!-- Ketua -->
             <div class="card ketua-card">
-                <div class="avatar"><i class="fa-solid fa-crown"></i></div>
+                <div class="photo-container">
+                    <img src="nur-titis.jpg" alt="Nur Titis Fatimatuzzahro">
+                </div>
                 <h3>Nur Titis Fatimatuzzahro</h3>
                 <span class="role role-ketua">Ketua Pengurus Kebersihan</span>
             </div>
 
             <!-- Anggota 1 -->
             <div class="card">
-                <div class="avatar"><i class="fa-solid fa-user-check"></i></div>
+                <div class="photo-container">
+                    <img src="robiatul.jpg" alt="Robiatul Fadhilah">
+                </div>
                 <h3>Robiatul Fadhilah</h3>
                 <span class="role">Anggota Pengurus Kebersihan</span>
             </div>
 
             <!-- Anggota 2 -->
             <div class="card">
-                <div class="avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                <div class="photo-container">
+                    <img src="titis-sukma.jpg" alt="Titis Sukma Dewantari">
+                </div>
                 <h3>Titis Sukma Dewantari</h3>
                 <span class="role">Anggota Pengurus Kebersihan</span>
             </div>
 
             <!-- Anggota 3 -->
             <div class="card">
-                <div class="avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                <div class="photo-container">
+                    <img src="ratna.jpg" alt="Ratna Suci Agustin">
+                </div>
                 <h3>Ratna Suci Agustin</h3>
                 <span class="role">Anggota Pengurus Kebersihan</span>
             </div>
 
             <!-- Anggota 4 -->
             <div class="card">
-                <div class="avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                <div class="photo-container">
+                    <img src="dyah.jpg" alt="Dyah Nur Khasanah">
+                </div>
                 <h3>Dyah Nur Khasanah</h3>
                 <span class="role">Anggota Pengurus Kebersihan</span>
             </div>
 
             <!-- Anggota 5 -->
             <div class="card">
-                <div class="avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                <div class="photo-container">
+                    <img src="anggun.jpg" alt="Anggun Aulia">
+                </div>
                 <h3>Anggun Aulia</h3>
                 <span class="role">Anggota Pengurus Kebersihan</span>
             </div>
